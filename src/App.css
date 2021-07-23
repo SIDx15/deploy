@@ -1,0 +1,76 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron{
+  background-color: #fed330;
+  color: #fff;
+  padding: 20px 5px;
+  text-align: center;
+  font-weight: 900px;
+  
+  display: flex;
+  justify-content:space-around;
+  
+
+}
+@media only screen and (max-width: 600px) {
+  .jumbotron{
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+}
+
+.icon{
+  font-size: 100px;
+}
+.svg_icons {
+  transform: scale(2.5);
+}
+.searchicon{
+  transform: scale(1.4);
+}
+.adjust{
+  display: flex;
+  align-items: center;
+  border: 10px black;
+  
+}
+.display-1{
+  font-size:50px;
+  font-weight:600;
+  margin-right: 20px;
+}
+.input{
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+
+}
+.form-control{
+   height: 40px;
+   width: 300px;
+   margin-right: 10px;
+}
+.input-group-text{
+  height: 40px;
+  color: #fff;
+  background-color: hsl(150, 74%, 51%);
+}
+
+
+
+.col{
+  margin-top: 20px;
+  padding: 20px;
+  
+  
+}
+
+.lit{
+  height: 200px;
+  overflow: scroll;
+  scrollbar-color: yellow;
+  
+}
